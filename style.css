@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(0, 0, 0);
+    animation-name: color;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+@keyframes color {
+    0% {
+      background-color: rgb(0, 0, 0);
+    }
+    50% {
+      background-color: #161616;
+    }
+    100% {
+      background-color: rgb(0, 0, 0);
+    }
+  }
+
+.vertical-center {
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+.bigcentertext {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+  }
+
+.centertext {
+    text-align: center;
+    font-size: 12px;
+    color: white;
+  }
+
+.bottomtext {
+    text-align: center;
+    font-size: 25px;
+    color: orangered;
+
+}
+
+.discord {
+  margin: auto;
+  width: 45%;
+  text-align: center;
+  padding: 10px;
+}
+
+a:hover {
+  color: white;
+  animation-name: hover;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes hover {
+  0% {
+    color: white;
+  }
+  50% {
+    color: #224782;
+  }
+  100% {
+    color: white;
+  }
+}
+
+@media handheld { .discord { display: none; } }
