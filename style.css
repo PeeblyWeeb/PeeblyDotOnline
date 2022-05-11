@@ -47,7 +47,8 @@ body {
 
 .discord {
   margin: auto;
-  width: 45%;
+  width: 80vw;
+  max-width: 400px;
   text-align: center;
   padding: 10px;
 }
