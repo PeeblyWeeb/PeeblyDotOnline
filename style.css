@@ -70,5 +70,3 @@ a:hover {
     color: white;
   }
 }
-
-@media handheld { .discord { display: none; } }
