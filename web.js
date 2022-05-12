@@ -1,7 +1,7 @@
 console.warn("Hey! get out of here! I don't want you seeing my terrible code!");
 console.warn("also dont type 'thefunny()' in this console window")
 
-var thefunnycount = 0
+let thefunnycount = 0
 
 function thefunny()
 {   
