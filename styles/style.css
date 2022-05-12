@@ -4,7 +4,11 @@ body {
     animation-duration: 5s;
     animation-iteration-count: infinite;
     font-family: 'Roboto Mono', monospace;
+    cursor: wait;
   }
+html {
+  cursor: wait;
+}
   
 @keyframes color {
     0% {
