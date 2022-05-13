@@ -1,9 +1,9 @@
-html {
-    cursor: wait;
-}
 body {
     background: #040204;
     color: #fff;
+    cursor: wait;
+}
+html {
     cursor: wait;
 }
 img {
@@ -23,6 +23,7 @@ img {
 
 a, a:visited {
     color: white;
+    font-size: 12px;
 }
 a:hover {
     color: white;
