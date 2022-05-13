@@ -1,6 +1,10 @@
+html {
+    cursor: wait;
+}
 body {
     background: #040204;
     color: #fff;
+    cursor: wait;
 }
 img {
     position: absolute;
