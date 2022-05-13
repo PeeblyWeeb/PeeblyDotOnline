@@ -1,0 +1,39 @@
+body {
+    background: #040204;
+    color: #fff;
+}
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-family: "Roboto Mono", monospace;
+}
+
+a, a:visited {
+    color: white;
+}
+a:hover {
+    color: white;
+    animation-name: hover;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hover {
+    0% {
+        color: white;
+    }
+    50% {
+        color: #224782;
+    }
+    100% {
+        color: white;
+    }
+}
