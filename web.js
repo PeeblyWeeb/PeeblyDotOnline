@@ -1,5 +1,5 @@
 console.warn("Hey! get out of here! I don't want you seeing my terrible code!")
-console.warn("also dont type 'thefunny()' in this console window")
+console.log("also dont type 'thefunny()' in this console window")
 
 let thefunnycount = 0
 
